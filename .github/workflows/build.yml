@@ -45,5 +45,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./github_deploy
           publish_branch: build
+          user_name: yjlee84
+          user_email: 72490099+yjlee84@users.noreply.github.com
           force_orphan: true
           enable_jekyll: true
